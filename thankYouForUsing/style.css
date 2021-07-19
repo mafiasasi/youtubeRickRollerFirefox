@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #121212;
+  color: white;
+}
+.front_container {
+  height: 65vh;
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(images/rick_astley.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: brightness(45%);
+  -webkit-backdrop-filter: brightness(45%);
+}
+.title {
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 0.3rem;
+  font-size: 4rem;
+  margin-top: 2rem;
+  color: #e40000;
+}
+.subtitle {
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 0.2rem;
+  font-size: 1.8rem;
+  color: #121212;
+}
+.warning_container {
+  display: flex;
+  margin-top: 2.5rem;
+  flex-direction: column;
+  align-items: center;
+}
+.important {
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 0.2rem;
+  font-size: 2.4rem;
+  color: #e40000;
+  margin-bottom: 0.5rem;
+}
+h3 {
+  font-size: 1.3rem;
+  text-align: justify;
+}
+a {
+  color: #e40000;
+}
+a:visited {
+  color: crimson;
+}
