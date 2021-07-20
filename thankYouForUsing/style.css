@@ -11,17 +11,16 @@ body {
   background-color: #121212;
   color: white;
 }
-.front_container {
+.front_image {
+  position: relative;
   height: 65vh;
   width: 50vw;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+
   background-image: url(images/rick_astley.gif);
   background-repeat: no-repeat;
   background-size: cover;
-  backdrop-filter: brightness(45%);
-  -webkit-backdrop-filter: brightness(45%);
+  filter: brightness(60%);
+  -webkit-ilter: brightness(60%);
 }
 .title {
   font-family: "Bebas Neue", sans-serif;
@@ -34,7 +33,7 @@ body {
   font-family: "Bebas Neue", sans-serif;
   letter-spacing: 0.2rem;
   font-size: 1.8rem;
-  color: #121212;
+  color: #fafafa;
 }
 .warning_container {
   display: flex;
@@ -64,4 +63,10 @@ a:visited {
   font-size: 3rem;
   vertical-align: middle;
   font-weight: 70;
+}
+.thankyou_container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
